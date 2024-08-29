@@ -1,0 +1,53 @@
+.transform{
+    display:grid;
+    grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6";
+    gap:10px;
+    padding:10px;
+    background-color: white;
+    width:auto;
+}
+.img1{
+    grid-area: img1;
+}
+.img2{
+    grid-area: img2;
+
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.img5{
+    grid-area: img5;
+}
+.img6{
+    grid-area: img6;
+}
+
+.img1:hover{
+    transform:translateX(100px);
+    transform:translate3d(100px 100px 100px);
+    box-shadow:20px 10px 5px black;
+}
+.img2:hover{
+    transform:translatey(100px);
+    transform:translate3d(100px 100px 100px);
+    box-shadow:20px 10px 5px black;
+}
+.img3:hover{
+    transform:scaleX(1.2);
+}
+.img4:hover{
+    transform:scaleY(1.2);
+}
+.img5:hover{
+    transform:rotatex(45deg);
+}
+.img6:hover{
+    transform:rotateY(45deg);
+}
